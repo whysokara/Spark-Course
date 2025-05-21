@@ -1,8 +1,6 @@
-from pyspark.sql import SparkSession
+import pandas as pd
+import numpy as np
 
-# Create a Spark session
-spark = SparkSession.builder.appName("TestApp").getOrCreate()
 
-# Run a simple transformation
-df = spark.range(5)
-df.show()
+data = pd.read_csv("fakefriends.csv")
+print(data)
