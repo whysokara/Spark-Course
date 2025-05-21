@@ -20,10 +20,10 @@ in-memory, distributed data processing engine/framework
 #### Spark Components
 
 Spark SQL = Spark Streaming = MLib = GraphX
-LANGUAGES        => Scala = Python = Java = R
-Computing Engine => Spark Engine
-Cluster Manager  => YARN = MESOS = KUBERNETES
-Storage          => HDFS | S3 | Azure Blob | GCS | CFS
+LANGUAGES        => Scala = Python = Java = R  
+Computing Engine => Spark Engine  
+Cluster Manager  => YARN = MESOS = KUBERNETES  
+Storage          => HDFS | S3 | Azure Blob | GCS | CFS  
 
 > Spark supports 3 api's
 * RDD
