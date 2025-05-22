@@ -51,4 +51,4 @@ that would be smart to filter the data first, so spark engine does that and try 
 * Optimize cluster
 * ...  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iXVIPQEGZ9Y?si=2y8XGn0EpWUTBLlz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[www.youtube.com/embed/iXVIPQEGZ9Y?si=2y8XGn0EpWUTBLlz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>](https://youtu.be/iXVIPQEGZ9Y?si=bqT_99cmX3PA0IRo)
