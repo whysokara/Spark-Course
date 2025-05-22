@@ -27,6 +27,6 @@ Spark is unified computing engine for parallel data processing on computer clust
 
 #### Laziness of Spark
 
-> Read => GroupBy => Wide T. => Filter => Show
-that would be smart to filter the data first, so spark engine does that and try to move filter as early as posible in sequence
+> Read => GroupBy => Wide T. => Filter => Show  
+that would be smart to filter the data first, so spark engine does that and try to move filter as early as posible in sequence  
 > Read => Filter => GroupBy => Wide T. => Show
