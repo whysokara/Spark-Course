@@ -29,4 +29,26 @@ Spark is unified computing engine for parallel data processing on computer clust
 
 > Read => GroupBy => Wide T. => Filter => Show  
 that would be smart to filter the data first, so spark engine does that and try to move filter as early as posible in sequence  
-> Read => Filter => GroupBy => Wide T. => Show
+> Read => Filter => GroupBy => Wide T. => Show  
+
+> Catalyst Optimizer - handles logical and physical query plan
+> Tungsten - provides low-level optimizations and code generation techniques to improve overall performance
+> AQE dynamically adjusts query execution based on runtime conditions
+
+#### Data Shuffling
+* Shuffling is a process of redistributing data across partitions, and typically involves data exchange between executor nodes
+* wide transformation requires shuffling
+
+#### Optimization
+* use parquet or delta, instead of csv
+* avoid expensive operations like sort
+* minimize volume of data
+* Cache/persist dataframes
+* Repartition/coalesce
+* avoid UDFs
+* partition and/or index data
+* Bucketing
+* Optimize cluster
+* ...  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iXVIPQEGZ9Y?si=2y8XGn0EpWUTBLlz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
