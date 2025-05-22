@@ -24,3 +24,9 @@ Spark is unified computing engine for parallel data processing on computer clust
     * Demand for results
     * collect, count, save, take, show
     * Actions are the operations that kick off the computation 
+
+#### Laziness of Spark
+
+> Read => GroupBy => Wide T. => Filter => Show
+that would be smart to filter the data first, so spark engine does that and try to move filter as early as posible in sequence
+> Read => Filter => GroupBy => Wide T. => Show
