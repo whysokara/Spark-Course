@@ -7,3 +7,12 @@
 4. Auditing - who is using what with data
 5. Cataloging - option to describe column
 6. Quality
+
+> Metastore - is the top-level container for catalog in Unity Catalog. Within a metastore, Unity catalog provides a 3-level namespace for organizing data: 
+1. Catalogs, 
+2. schemas (aka databases), and 
+3. tables/views
+
+##### Unity Catalog introduces three-level namespaces:
+> catalog.schema.table
+ex: main,sales.customer_data
