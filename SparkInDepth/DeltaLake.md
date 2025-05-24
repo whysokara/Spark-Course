@@ -50,3 +50,4 @@ INSERT OVERWRITE <TABLE> VALUES
 > %fs ls <path>
 > DESC HISTORY <TABLE>
 ```
+> delta lake is single source of truth 
