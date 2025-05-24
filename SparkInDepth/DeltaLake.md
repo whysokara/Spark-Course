@@ -28,8 +28,9 @@ top-level container of objects, storing information such as metadata about table
 > SELECT * FROM <DB NAME>.<table>
 > DROP SCHEMA <db name> - 'does not work if schema is not empty'
 > DROP SCHEMA <db name> cascade
-
--- Create Table
+```
+#### Create Table, Insert, Update
+``` sql
 DROP TABLE IF EXISTS <TABLE>;
 CREATE TABLE <TABLE> (ID INT, name, STRING)
 
@@ -40,12 +41,12 @@ INSERT INTO <TABLE> VALUES
 
 INSERT OVERWRITE <TABLE> VALUES
 (1, 'P') -- THIS OVERWRITES EVERYTHING
-
+```
+``` sql
 > DESC <TABLE> / DESCRIBE <TABLE>
 > DESCRIBE FORMATTED <TABLE>
 > DESCRIBE EXTENDED <TABLE>
 > DESC DETAIL <TABLE>
 > %fs ls <path>
 > DESC HISTORY <TABLE>
-
 ```
